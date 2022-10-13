@@ -1,0 +1,273 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #FFFFFF;
+}
+
+.logoke2 a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #ff0000;
+    margin-left: 20px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #000000;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'arial rounded';
+    color: #364F6B;
+}
+
+h2 {
+    font-family: 'arial rounded';
+    font-weight: 800px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #FF731D;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover {
+    background: #3C2317;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #3C2317;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #FF731D;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 1px 0px;
+}
+
+.sejarahwk {
+    font-family: 'tahoma';
+}
+
+.deskripsisejarah {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'arial rounded';
+    color: #364F6B;
+    text-align: center;
+}
+
+.h2smk {
+    font-family: 'arial rounded';
+    font-weight: 800px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+
+a.tbl-sejarah {
+    background: #3C2317;
+    border-radius: 20px;
+    margin: 20px 0px 0px 580px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}
+
+a.tbl-sejarah:hover {
+    background: #FF731D;
+    text-decoration: none;
+    text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #000000;
+    z-index: 1;
+    text-align: center;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 10%;
+  justify-items: center;
+  color: #000000;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: white;
+    padding: 0 12%;
+  }
+  
+  .card {
+    background-color: #f7f8f9;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .card:hover {
+    background-color: #fbcb7b;
+  }
+
+  .card p {
+    text-align: left;
+  }
+
+  .content3 {
+    padding: 1% 12% 6% 12%;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 40% 60%;
+    color: #000000;
+  }
+
+  .text2 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .content4 {
+    text-align: center;
+    padding: 6% 12%;
+    background-color:#000000;
+    padding: 24px 60px;
+    color: white;
+  }
+  
+  .content4 p {
+    font-size: 18px;
+    color: white;
+  }
+
+  .content4 h2 {
+    color: white;
+  }
+
+  .isipiring {
+    text-align: center;
+  }
+  
+  .sehat {
+    text-align: center;
+  }
